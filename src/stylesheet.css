@@ -1,3 +1,7 @@
+html, body {
+  margin:0;
+}
+
 body {
   font-family: 'Rubik';
   font-size: 22px;
@@ -55,11 +59,25 @@ body {
   margin:0 auto;
   font-size: 35px;
   border-radius:10px;
+  padding:5px 15px;
+  border: none;
+  border-bottom: 5px #888 solid;
+  background-color: #ddd;
+  transition: all .1s;
 }
 
 .monkeyGameButton:hover {
-  color:white;
-  background-color: black;
+  background-color: #fff;
+}
+.monkeyGameButtonContainer {
+  transition: all .1s;
+}
+.monkeyGameButtonContainer:has(.monkeyGameButton:active) {
+  padding-top: 5px;
+}
+.monkeyGameButton:active {
+  background-color: #aaa;
+  border: none;
 }
 
 .aboutTheTeam {
