@@ -28,7 +28,6 @@ body {
   position: relative;
 }
 
-
 .center {
   display: flex;
   justify-content: center;
@@ -87,7 +86,7 @@ body {
 .aboutLemonGrid {
   background-color: rgba(255, 255, 255, 0.76);
   color:black;
-  font-size: 1vw;
+  font-size: 3vw;
   display:grid;
   column-gap:25px;
   grid-template-columns:repeat(3, 1fr);
@@ -101,47 +100,36 @@ body {
   align-content: center;
 }
 
+
 .aboutLemonGridItem1 {
   grid-column-start: 1;
   grid-column-end: 2;
 }
-
 .aboutLemonGridItem2 {
   grid-column-start: 2;
   grid-column-end: 3;
 }
-
-
 .aboutLemonGridItem3 {
   grid-column-start: 1;
   grid-column-end: 1;
 }
-
 .aboutLemonGridItem4 {
   grid-column-start: 2;
   grid-column-end: 3;
 }
-
-
-
 .aboutLemonGridItem5 {
   grid-column-start: 1;
   grid-column-end: 1;
 }
-
 .aboutLemonGridItem6 {
   grid-column-start: 2;
   grid-column-end: 3;
 }
-
-
 .aboutLemonGridItem7 {
   grid-column-start: 1;
   grid-column-end: 1;
 }
-
 .aboutLemonGridItem8 {
   grid-column-start: 2;
   grid-column-end: 3;
 }
-
