@@ -3,9 +3,9 @@ body {
   font-size: 22px;
   align-items: center;
   align-content: center;
-  background-color:rgb(255, 255, 255) ;
+  background-color:rgba(0, 0, 0, 0.082) ;
   color:rgb(235, 235, 235);
-}
+  }
 
 .titleBar {
   display:flex;
@@ -67,18 +67,25 @@ body {
 }
 
 .aboutLemonGrid {
-  background-color: rgba(0, 0, 0, 0.219);
+  background-color: rgba(255, 255, 255, 0.76);
   color:black;
   font-size: 1vw;
   display:grid;
   column-gap:25px;
   grid-template-columns:repeat(3, 1fr);
+  border-radius: 10px;
 }
 
+.aboutLemon {
+  color:white;
+  display:flex;
+  justify-content: center;
+  align-content: center;
+}
 
 .aboutLemonGridItem1 {
   grid-column-start: 1;
-  grid-column-end: 1;
+  grid-column-end: 2;
 }
 
 .aboutLemonGridItem2 {
@@ -119,3 +126,4 @@ body {
   grid-column-start: 2;
   grid-column-end: 3;
 }
+
