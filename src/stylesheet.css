@@ -1,10 +1,10 @@
 body {
-  background-color:rgb(255, 255, 255) ;
-  color:rgb(235, 235, 235);
   font-family: 'Rubik';
   font-size: 22px;
   align-items: center;
   align-content: center;
+  background-color:rgb(255, 255, 255) ;
+  color:rgb(235, 235, 235);
 }
 
 .titleBar {
@@ -60,4 +60,62 @@ body {
 .monkeyGameButton:hover {
   color:white;
   background-color: black;
+}
+
+.aboutTheTeam {
+  color:black;
+}
+
+.aboutLemonGrid {
+  background-color: rgba(0, 0, 0, 0.219);
+  color:black;
+  font-size: 1vw;
+  display:grid;
+  column-gap:25px;
+  grid-template-columns:repeat(3, 1fr);
+}
+
+
+.aboutLemonGridItem1 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+.aboutLemonGridItem2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+
+.aboutLemonGridItem3 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+.aboutLemonGridItem4 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+
+
+.aboutLemonGridItem5 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+.aboutLemonGridItem6 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+
+.aboutLemonGridItem7 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+.aboutLemonGridItem8 {
+  grid-column-start: 2;
+  grid-column-end: 3;
 }
