@@ -7,6 +7,7 @@ const { app, BrowserWindow, Menu } = electron;
 
 const buttonClicker = document.getElementById("buttonClicker")
 const buttonCounter = document.getElementById("buttonCounter")
+
 var buttonCounts = 0
 
 
