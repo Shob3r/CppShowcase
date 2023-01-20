@@ -35,4 +35,4 @@ npm i
 ```ps
 npm start
 ```
-#Special thanks to ChakornK for helping with some js and css
+# Special thanks to ChakornK for helping with some js and css
