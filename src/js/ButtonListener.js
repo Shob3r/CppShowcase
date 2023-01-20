@@ -1,9 +1,11 @@
 let clickCount = 0;
-const button = document.querySelector("#buttonClicker");
-const clickCounter = document.querySelector("#clickCounter");
+let button = document.querySelector("#buttonClicker");
+let clickCounter = document.querySelector("#clickCounter");
+
+let Text = "Total Clicks: ";
 
 button.addEventListener("click", function() {
   clickCount++;
   console.log("button Clicked!")
-  clickCount.innerText = "clickCounter"
+  clickCounter.innerHTML = Text + clickCount;
 })
