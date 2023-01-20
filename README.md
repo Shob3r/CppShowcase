@@ -19,7 +19,7 @@ Personal Project Source Code
 
 ```ps
 git clone https://github.com/Shob3r/PersonalPSourceCode.git
-cd PrersonalPSourceCodefrfr
+cd PersonalPSourceCode
 ```
 
 <br>
@@ -35,4 +35,6 @@ npm i
 ```ps
 npm start
 ```
-# Special thanks to ChakornK for helping with some js and css
+
+<hr>
+<h6 align="center"><i>Special thanks to ChakornK for helping with some js and css</i></h6>
