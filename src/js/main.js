@@ -1,16 +1,17 @@
 // main.js
 
 // Modules to control application life and create native browser window
-const { app, BrowserWindow } = require("electron");
+const { app, BrowserWindow, ipcRenderer, ipcMain, shell } = require("electron");
 const path = require("path");
 const createWindow = () => {
 	// Create the browser window.
 	const mainWindow = new BrowserWindow({
 		autoHideMenuBar: true,
-		width: 900,
-		height: 600,
+		width: 912,
+		height: 1024,
 		webPreferences: {
-			preload: path.join(__dirname, "preload.js")
+			preload: path.join(__dirname, "preload.js"),
+			nodeIntegration: true
 		},
 		minHeight: 600,
 		minWidth: 1024,
@@ -19,11 +20,13 @@ const createWindow = () => {
 
 	// and load the index.html of the app.
 	mainWindow.loadFile("../index.html");
+	mainWindow.webContents.openDevTools();
 
-	// Open the DevTools.
-	// mainWindow.webContents.openDevTools()
+	mainWindow.webContents.setWindowOpenHandler(({ url }) => {
+		shell.openExternal(url);
+		return { action: "deny" };
+	});
 };
-
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
 // Some APIs can only be used after this event occurs.
