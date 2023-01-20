@@ -18,7 +18,7 @@ Personal Project Source Code
 <p>Clone repo</p>
 
 ```ps
-git clone https://github.com/Shob3r/PrersonalPSourceCodefrfr.git
+git clone https://github.com/Shob3r/PersonalPSourceCode.git
 cd PrersonalPSourceCodefrfr
 ```
 
