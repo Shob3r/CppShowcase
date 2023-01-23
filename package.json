@@ -2,10 +2,10 @@
     "name": "prersonalpsourcecodefrfr",
     "version": "1.0.0",
     "description": "",
-    "main": "main.js",
+    "main": "app/js/main.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "electron src/js/main.js"
+      "start": "electron app/js/main.js"
     },
     "author": "",
     "license": "MIT",
