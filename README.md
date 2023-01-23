@@ -19,7 +19,9 @@ Personal Project Source Code
 
 Windows 7 or later
 
-(Optional, if you want to use the most up-to-date libraries) libgit2 and libcurl installed with vcpkg
+Visual Studio 2022 with the C++ workload
+
+libgit2 and libcurl installed with vcpkg (optional)
 
 <h2>🚀 How to run</h2>
 <p>Clone repo</p>
