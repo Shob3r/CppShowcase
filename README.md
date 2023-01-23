@@ -14,7 +14,12 @@ Personal Project Source Code
 <p align="center"><i>The source code that is downloaded by my personalProjectDownloader C++ app. this is not written in C++</i></p>
 <br>
 <hr>
-<h2>🛠️ How to run</h2>
+
+<h2>🛠️ Requirements to compile the auto installer:</h2>
+- Windows 7 or later
+- (Optional, if you want to use the most up-to-date libraries) libgit2 and libcurl installed with vcpkg
+
+<h2>🚀 How to run</h2>
 <p>Clone repo</p>
 
 ```ps
@@ -23,14 +28,13 @@ cd PersonalPSourceCode
 ```
 
 <br>
-<p>Install node modules</p>
-
+<p>After cloning the repository, run the Exe file for a semi-auto install, or you can run:</p>
 ```ps
-npm i
+npm install 
 ```
 
 <br>
-<p>Start the app</p>
+<p>Start the app (if you manually installed everything)</p>
 
 ```ps
 npm start
