@@ -17,6 +17,7 @@ Personal Project Source Code
 
 <h2>🛠️ Requirements to compile the auto installer:</h2>
 - Windows 7 or later
+
 - (Optional, if you want to use the most up-to-date libraries) libgit2 and libcurl installed with vcpkg
 
 <h2>🚀 How to run</h2>
