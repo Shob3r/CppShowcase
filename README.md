@@ -19,7 +19,7 @@ Personal Project Source Code
 
 Windows 7 or later
 
-Visual Studio 2022 with the C++ workload
+Visual Studio 2022 with the "C++ for desktop development" workload
 
 libgit2 and libcurl installed with vcpkg (optional)
 
