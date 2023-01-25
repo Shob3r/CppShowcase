@@ -1,5 +1,4 @@
 // Most of these libraries are unused lol
-
 #include <iostream>
 #include <windows.h>
 #include <stdio.h>
@@ -24,8 +23,6 @@ size_t write_data(void* ptr, size_t size, size_t nmemb, FILE* stream) {
 using namespace std;
 
 int main() {
-
-
 	std::filesystem::path install_path("C:\\Program Files\\LemonStudiosApp");
 	std::error_code errorCode;
 	// Initialize some libraries
