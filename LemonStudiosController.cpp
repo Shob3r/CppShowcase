@@ -23,11 +23,9 @@ size_t write_data(void* ptr, size_t size, size_t nmemb, FILE* stream) {
 using namespace std;
 
 int main() {
-	std::filesystem::path install_path("C:\\Program Files\\LemonStudiosApp");
+	std::filesystem::path install_path(std::getenv("APPDATA"));
 	std::error_code errorCode;
 	// Initialize some libraries
-
-	git_libgit2_init();
 
 	// Libcurl download variables
 	char NodeJsFileName[FILENAME_MAX] = "C:\\node-v19.5.0-x64.msi";
@@ -82,4 +80,4 @@ int main() {
 	}
 }
 
-//Special thanks to the internet for helping me make this
+// Special thanks to the internet for helping me make this
