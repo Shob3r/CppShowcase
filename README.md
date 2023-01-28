@@ -19,7 +19,7 @@ Cpp showcase
 <p>Clone repo</p>
 
 ```ps
-git clone https://github.com/Shob3r/PersonalPSourceCode.git
+git clone https://github.com/Shob3r/CppShowcase.git
 cd PersonalPSourceCode
 ```
 
