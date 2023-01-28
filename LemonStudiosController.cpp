@@ -11,9 +11,12 @@
 #include <sys/stat.h>
 #include <filesystem>
 #include <shellapi.h>
+#include <ShlObj.h>
 
+#pragma warning(disable:4996)
 #pragma comment(lib, "WinHTTP.lib")
 #pragma comment(lib, "git2.lib")
+
 
 size_t write_data(void* ptr, size_t size, size_t nmemb, FILE* stream) {
 	size_t written = fwrite(ptr, size, nmemb, stream);
@@ -23,7 +26,11 @@ size_t write_data(void* ptr, size_t size, size_t nmemb, FILE* stream) {
 using namespace std;
 
 int main() {
-	std::filesystem::path install_path(std::getenv("APPDATA"));
+	string appData = getenv("APPDATA");
+	string InstallDir = appData + "\\CppShowcase";
+
+
+	std::filesystem::path installPath(InstallDir);
 	std::error_code errorCode;
 	// Initialize some libraries
 
@@ -31,14 +38,14 @@ int main() {
 	char NodeJsFileName[FILENAME_MAX] = "C:\\node-v19.5.0-x64.msi";
 
 	// Check if app is installed
-	if (std::filesystem::exists(install_path) && std::filesystem::is_directory(install_path)) {
+	if (std::filesystem::exists(InstallDir) && std::filesystem::is_directory(InstallDir)) {
 		// App is installed!
 		std::cout << "Folder exists and app is installed!";
 	}
 
 	else {
 		// App is not Cloned nor installed, script proceeds as normal
-		if (std::filesystem::create_directory(install_path, errorCode)) {
+		if (std::filesystem::create_directory(InstallDir, errorCode)) {
 			std::cout << "folder successfully created!";
 
 			HINTERNET hSession = WinHttpOpen(L"PersonalPInternetChecker",
