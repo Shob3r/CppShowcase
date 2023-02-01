@@ -12,7 +12,7 @@ Cpp showcase
   <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white">
 </p>
 <p align="center"><i>The source code that is downloaded by my personalProjectDownloader C++ app. this is not written in C++</i></p>
-<p align="center"><i><b>THIS IS A SCHOOL PROJECT, THERE IS NOTHING OF USE FOR YOU IF YOU ARE NOT SOMEONE MARKING MY WORK</b></i></p>
+<p align="center"><i><b>THIS IS A SCHOOL PROJECT, THERE IS NOTHING OF USE FOR YOU</b></i></p>
 <br>
 <hr>
 
