@@ -19,7 +19,9 @@ body {
 
 .NavBar {
   display: flex;
-  justify-content:space-evenly;
+  justify-content:left;
+  gap:150px;
+  padding:10px 50px;
   font-size: 24pt;
   background-color: rgb(0, 132, 255);
 }
