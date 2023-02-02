@@ -111,7 +111,7 @@ function createModal(title, body) {
 
 info1.addEventListener("click", function() {
     console.log("Clicked!")
-    createModal("C++ Math application", "<p>It's very scuffed and does math for you (kind of)</p> <a> download here</a>")
+    createModal("C++ Math application", "<p>It's very scuffed and does math for you (kind of)</p>")
   })
 
 info2.addEventListener("click", function() {
