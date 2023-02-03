@@ -9,15 +9,15 @@ const createWindow = () => {
 		autoHideMenuBar: true,
 		width: 912,
 		height: 1024,
-		icon: __dirname + '../media/img/CppIcon.ico',
 		webPreferences: {
 			preload: path.join(__dirname, "preload.js"),
 			nodeIntegration: true
 		},
 		minHeight: 600,
 		minWidth: 1024,
-		icon: path.join(__dirname, "media", "img", "Lemon.png")
+		icon: path.join(__dirname, "..", "media", "img", "Lemon.png")
 	});
+	console.log(path.join(__dirname, "..", "media", "img", "Lemon.png"));
 
 	// and load the index.html of the app.
 	mainWindow.loadFile("../index.html");
