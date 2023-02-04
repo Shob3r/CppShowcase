@@ -2,6 +2,7 @@
 
 // Modules to control application life and create native browser window
 const { app, BrowserWindow, ipcRenderer, ipcMain, shell } = require("electron");
+const { download } = require("electron-dl");
 const path = require("path");
 const createWindow = () => {
 	// Create the browser window.
