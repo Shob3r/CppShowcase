@@ -25,7 +25,7 @@ cd PersonalPSourceCode
 ```
 
 <br>
-<p>After cloning the repository, run the Exe file for a semi-auto install, or you can run:</p>
+<p>Install Packages</p>
 
 ```ps
 npm install 
@@ -37,6 +37,4 @@ npm install
 ```ps
 npm start
 ```
-
 <hr>
-<h6 align="center"><i>Special thanks to ChakornK for helping with some js and css</i></h6>
