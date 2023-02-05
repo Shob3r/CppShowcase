@@ -16,9 +16,9 @@ const createWindow = () => {
 		},
 		minHeight: 600,
 		minWidth: 1024,
-		icon: path.join(__dirname, "..", "media", "img", "Lemon.png")
+		icon: path.join(__dirname, "..", "media", "img", "cppLogo.png")
 	});
-	console.log(path.join(__dirname, "..", "media", "img", "Lemon.png"));
+	
 
 	// and load the index.html of the app.
 	mainWindow.loadFile("../index.html");
