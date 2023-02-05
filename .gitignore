@@ -4,6 +4,5 @@
 # nodejs
 node_modules/
 
-# Visual studio debug binaries
-
-x64/*
+# package-lock
+package-lock.json
