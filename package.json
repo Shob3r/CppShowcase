@@ -5,13 +5,13 @@
     "main": "src/js/main.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "electron src/js/main.js"
+        "start": "electron src/js/main.js",
+        "build": "electron-builder"
     },
     "author": "",
     "license": "MIT",
-    "dependencies": {
-        "bootstrap-icons": "^1.10.3",
-        "electron": "^22.0.2",
-        "electron-dl": "^3.5.0"
+    "devDependencies": {
+        "electron": "^22.2.0",
+        "electron-builder": "^23.6.0"
     }
 }
