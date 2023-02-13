@@ -42,6 +42,6 @@ npm start
 <p>to build, simply run:</p>
 
 ```ps
-npm install 
+npm run build
 ```
 <hr>
