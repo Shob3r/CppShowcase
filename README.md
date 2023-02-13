@@ -32,7 +32,7 @@ npm install
 ```
 
 <br>
-<p>Start the app (if you manually installed everything)</p>
+<p>Start the app</p>
 
 ```ps
 npm start
