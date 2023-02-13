@@ -40,7 +40,8 @@ npm start
 
 <h2>🛠 Build instructions</h2>
 <p>to build, simply run:</p>
+
 ```ps
-npm run bild
+npm install 
 ```
 <hr>
