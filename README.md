@@ -28,20 +28,20 @@ cd PersonalPSourceCode
 <p>Install Packages</p>
 
 ```ps
-npm install 
+pnpm install 
 ```
 
 <br>
 <p>Start the app</p>
 
 ```ps
-npm start
+pnpm start
 ```
 
 <h2>🛠 Build instructions</h2>
 <p>to build, simply run:</p>
 
 ```ps
-npm run build
+pnpm run build
 ```
 <hr>
