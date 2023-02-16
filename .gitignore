@@ -1,11 +1,9 @@
 # github folder
 .git
 
-# nodejs
+# Pnpm dependency folder & package-lock file
 node_modules/
+pnpm-lock.yaml
 
-# package-lock
-package-lock.json
-
-# packaging folder
+# build folder
 dist/

@@ -10,8 +10,8 @@
     "author": "shob3r",
     "license": "MIT",
     "devDependencies": {
-        "electron": "^23.0.0",
-        "electron-builder": "^24.0.0-alpha.12",
-        "electron-builder-squirrel-windows": "^24.0.0-alpha.12"
+        "electron": "^23.1.0",
+        "electron-builder": "24.0.0-alpha.12",
+        "electron-builder-squirrel-windows": "24.0.0-alpha.12"
     }
 }
