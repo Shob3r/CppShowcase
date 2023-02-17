@@ -15,7 +15,7 @@ Cpp showcase
 <p align="center"><i><b>THIS IS A SCHOOL PROJECT, THERE IS NOTHING OF USE FOR YOU</b></i></p>
 <br>
 <hr>
-
+<h2>Requires Pnpm</h2>
 <h2>🚀 How to run</h2>
 <p>Clone repo</p>
 

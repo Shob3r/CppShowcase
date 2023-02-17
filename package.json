@@ -3,11 +3,21 @@
     "version": "1.1.0",
     "description": "Showcase app of my C++ work for my IB personal project",
     "main": "src/js/main.js",
+    "engines": {
+        "pnpm": ""
+    },
     "scripts": {
         "start": "electron src/js/main.js",
-        "build": "electron-builder",
-        "postinstall": "echo this project is designed to work with pnpm. It is recommended that you use pnpm as the package manager as this project. You may download pnpm at: https://github.com/pnpm/pnpm"
+        "build": "electron-builder"
     },
+    "build": {
+        "win": {
+          "target": "squirrel"
+        },
+        "productName": "C++ Showcase",
+        "appid": "com.shob3r.cpp-showcase",
+        "icon": "src/media/img/CppIcon.ico"
+    },      
     "author": "shob3r",
     "license": "MIT",
     "devDependencies": {
