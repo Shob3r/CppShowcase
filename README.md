@@ -21,14 +21,14 @@ Cpp showcase
 
 ```ps
 git clone https://github.com/Shob3r/CppShowcase.git
-cd PersonalPSourceCode
+cd CppShowcase
 ```
 
 <br>
 <p>Install Packages</p>
 
 ```ps
-pnpm install 
+pnpm i
 ```
 
 <br>
