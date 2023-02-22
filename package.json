@@ -8,15 +8,15 @@
     },
     "scripts": {
         "start": "electron src/js/main.js",
-        "build": "electron-builder build --win --x64"
+        "build": "electron-builder"
     },
     "build": {
         "win": {
             "target": "squirrel"
         },
+        
         "productName": "C++ Showcase",
-        "icon": "src/media/img/CppIcon.ico",
-        "loadingGif": "src/media/img/splash.png"
+        "icon": "src/media/img/CppIcon.ico"
     },
     "author": "shob3r",
     "license": "MIT",
