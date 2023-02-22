@@ -2,7 +2,7 @@
 
 body {
     font-family:'IBM Plex Sans Thai', sans-serif;
-    background: linear-gradient(to right, #013f9b, #190072);
+    background: linear-gradient(to right, #97007e, #ee5700);
     background-size: 200% 200%;
     animation: gradient 10s ease infinite;
   }
