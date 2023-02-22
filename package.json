@@ -1,6 +1,6 @@
 {
     "name": "cppshowcase",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "Showcase app of my C++ work for my IB personal project",
     "main": "src/js/main.js",
     "engines": {
